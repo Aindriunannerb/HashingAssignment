@@ -1,0 +1,91 @@
+package BookApp.Book;
+
+public class BookClass {
+	// variables for the book class
+	private String title;
+	private String author;
+	private int yearOfPublication;
+	private String publisher;
+	private int numberOfPages;
+	private String genre;
+	private String plotDescription;
+	private String bookCoverImageLink;
+	
+	/**
+	 * constructor for the book class
+	 * @param title
+	 * @param author
+	 * @param yearOfPublication
+	 * @param publisher
+	 * @param numberOfPages
+	 * @param genre
+	 * @param plotDescription
+	 * @param bookCoverImageLink
+	 */
+	public BookClass(String title,String author,int yearOfPublication,String publisher,int numberOfPages,String genre,String plotDescription,String bookCoverImageLink) {
+		this.title = title;
+		this.author = author;
+		this.yearOfPublication = yearOfPublication;
+		this.publisher = publisher;
+		this.numberOfPages = numberOfPages;
+		this.genre = genre;
+		this.plotDescription = plotDescription;
+		this.bookCoverImageLink = bookCoverImageLink;
+	}
+	
+	
+	/**
+	 * getters and setters for the Book class variables
+	 * @return
+	 */
+	public String getTitle() {
+		return title;
+	}
+	public void setTitle(String title) {
+		this.title = title;
+	}
+	public String getAuthor() {
+		return author;
+	}
+	public void setAuthor(String author) {
+		this.author = author;
+	}
+	public int getYearOfPublication() {
+		return yearOfPublication;
+	}
+	public void setYearOfPublication(int yearOfPublication) {
+		this.yearOfPublication = yearOfPublication;
+	}
+	public String getPublisher() {
+		return publisher;
+	}
+	public void setPublisher(String publisher) {
+		this.publisher = publisher;
+	}
+	public int getNumberOfPages() {
+		return numberOfPages;
+	}
+	public void setNumberOfPages(int numberOfPages) {
+		this.numberOfPages = numberOfPages;
+	}
+	public String getGenre() {
+		return genre;
+	}
+	public void setGenre(String genre) {
+		this.genre = genre;
+	}
+	public String getPlotDescription() {
+		return plotDescription;
+	}
+	public void setPlotDescription(String plotDescription) {
+		this.plotDescription = plotDescription;
+	}
+	public String getBookCoverImageLink() {
+		return bookCoverImageLink;
+	}
+	public void setBookCoverImageLink(String bookCoverImageLink) {
+		this.bookCoverImageLink = bookCoverImageLink;
+	}
+	
+
+}
